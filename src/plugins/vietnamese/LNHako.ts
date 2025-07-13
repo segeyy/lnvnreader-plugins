@@ -16,10 +16,10 @@ enum ParseNovelAction {
 
 class HakoPlugin implements Plugin.PluginBase {
   id = 'ln.hako';
-  name = 'Hako';
+  name = 'Hako - DocLN';
   icon = 'src/vi/hakolightnovel/icon.png';
-  site = 'https://ln.hako.vn';
-  version = '1.1.0';
+  site = 'https://docln.sbs';
+  version = '1.2';
   parseNovels(url: string) {
     return fetchApi(url)
       .then(res => res.text())
