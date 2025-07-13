@@ -16,7 +16,7 @@ enum ParseNovelAction {
 
 class HakoPlugin implements Plugin.PluginBase {
   id = 'ln.hako';
-  name = 'Hako - DocLN';
+  name = 'DocLN (SBS)';
   icon = 'src/vi/hakolightnovel/icon.png';
   site = 'https://docln.sbs';
   version = '1.2';
